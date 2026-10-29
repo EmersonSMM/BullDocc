@@ -1,8 +1,8 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repositorio": "EmersonSMM/BullDocc",
   "download_url": "https://raw.githubusercontent.com/EmersonSMM/BullDocc/main/index_completo.html",
-  "bytes": 2185800,
-  "sha256": "6d0cfe60911047c14052e4e3f94fa9d12a5eadb438b68944c5abb6aaba6d6169",
-  "notas": "Primera versión pública. Incluye 23 generadores y la corrección DNPA + rebajas tipo 07."
+  "bytes": 2177500,
+  "sha256": "5566e6be7f41ac64e59b11a2ade65250adb343d1739b7729cc03be4b24f8abe4",
+  "notas": "BullDocc con 23 generadores y consulta de actualizaciones desde GitHub. Se corrigió la integración del actualizador con la navegación del HTML completo."
 }
