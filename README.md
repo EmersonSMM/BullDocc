@@ -1,10 +1,12 @@
 # BullDocc · Generadores QA
 
-23 generadores de datos y archivos para pruebas QA, reunidos en un HTML autocontenido.
+28 generadores de datos y archivos para pruebas QA, reunidos en un HTML autocontenido.
 
 ## Descargar y utilizar
 
 Descarga **index_completo.html** desde [Releases](https://github.com/EmersonSMM/BullDocc/releases/latest) y ábrelo en tu navegador. Incluye estilos, imágenes, JSZip y PapaParse; la generación de archivos funciona localmente.
+
+Las cinco nuevas variantes IPS (DNPA + MOVPER, DNP + MOVPER, DNP + pagos, DNPA + rebajas y DNP + pagos + MOVPER) llevan una banda diagonal **BETA**: «no se han testeado completamente». Su certificación funcional en SUCC está pendiente.
 
 ## Actualizar tu copia
 
@@ -28,7 +30,7 @@ Se incluyen generadores AFP, IPS/FAPP, pagos, rebajas, MOVPER, MDF y retroalimen
 El mantenimiento se realiza en el proyecto local con los fuentes de los generadores. Después de editar y verificar los HTML afectados, ejecutar desde su raíz:
 
 ```sh
-python3 auditoria/empaquetado/preparar_publicacion.py --version 1.0.3 --notas "Descripción del cambio"
+python3 auditoria/empaquetado/preparar_publicacion.py --version 1.1.1 --notas "Descripción del cambio"
 ```
 
 La verificación de integridad exige registrar los cambios intencionales de los generadores en `auditoria/empaquetado/correcciones_aprobadas.json` del proyecto de fuentes.
@@ -38,9 +40,9 @@ El comando reconstruye y verifica el paquete, y prepara el HTML y el manifiesto 
 ```sh
 cd publicacion/BullDocc
 git add index_completo.html version.json
-git commit -m "Publicar BullDocc 1.0.3"
+git commit -m "Publicar BullDocc 1.1.1"
 git push origin main
-gh release create v1.0.3 index_completo.html version.json --title "BullDocc 1.0.3" --notes "Descripción del cambio"
+gh release create v1.1.1 index_completo.html version.json --title "BullDocc 1.1.1" --notes "Descripción del cambio"
 ```
 
 Cada publicación requiere una versión mayor que la anterior en formato `mayor.menor.parche`. El botón no ofrece volver a versiones inferiores. No edites `version.json` a mano ni publiques un manifiesto que no corresponda al HTML.
