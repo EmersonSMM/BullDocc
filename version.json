@@ -1,8 +1,8 @@
 {
-  "version": "1.1.0",
+  "version": "1.1.1",
   "repositorio": "EmersonSMM/BullDocc",
   "download_url": "https://raw.githubusercontent.com/EmersonSMM/BullDocc/main/index_completo.html",
-  "bytes": 2682421,
-  "sha256": "d2f7a036f888ebf9c9cd8853f79e04092329f847e7d04a8fe66da217c8aeff8d",
-  "notas": "Agrega cinco variantes IPS/FAPP con banda diagonal BETA y aviso: no se han testeado completamente. Los 23 generadores anteriores conservan sus fuentes."
+  "bytes": 2685882,
+  "sha256": "8b74aec10aaaf9ba0db819fb0a08a97cb6d16fea8f78771a42db448ccde5e6f9",
+  "notas": "Unifica la estética de los cinco generadores IPS BETA con los existentes: logo, fondo, formulario, botón y registro. Sin cambios en la lógica de generación."
 }
