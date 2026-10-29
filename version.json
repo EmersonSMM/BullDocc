@@ -1,8 +1,8 @@
 {
-  "version": "1.1.1",
+  "version": "1.1.2",
   "repositorio": "EmersonSMM/BullDocc",
   "download_url": "https://raw.githubusercontent.com/EmersonSMM/BullDocc/main/index_completo.html",
-  "bytes": 2685882,
-  "sha256": "8b74aec10aaaf9ba0db819fb0a08a97cb6d16fea8f78771a42db448ccde5e6f9",
-  "notas": "Unifica la estética de los cinco generadores IPS BETA con los existentes: logo, fondo, formulario, botón y registro. Sin cambios en la lógica de generación."
+  "bytes": 2686135,
+  "sha256": "eef328d1283c9fcd139682885e8ad2afa24751684096f90231c014cf5db4b20f",
+  "notas": "El HTML completo muestra un único botón de regreso: Volver al catálogo. Oculta Volver al Hub en los generadores integrados y lo conserva en los HTML individuales. Sin cambios en generación."
 }
