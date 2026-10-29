@@ -17,6 +17,17 @@ Las cinco nuevas variantes IPS (DNPA + MOVPER, DNP + MOVPER, DNP + pagos, DNPA +
 
 El navegador pide intervención para guardar o reemplazar archivos; BullDocc no modifica silenciosamente el archivo abierto. La consulta requiere Internet y solo obtiene `version.json` y, si hay actualización, el HTML publicado en este repositorio. No envía los datos ni archivos de tus pruebas a GitHub.
 
+## Herramientas QA integradas
+
+Despliega **Herramientas QA · semilla, casuísticas y validación** dentro de cada generador.
+
+- Activa la semilla y fija una fecha de referencia para repetir contenido con las mismas opciones, entrada y versión. El cruce con cartera conserva su lógica determinista según sus entradas; cambiar la semilla no altera su resultado. La repetición se refiere al contenido, no a los metadatos del ZIP.
+- Consulta la ficha con descripción, salidas y opciones del generador.
+- Genera y descarga el informe QA con versión, semilla, opciones y hallazgos. La revisión comprueba estructuras y relaciones disponibles sin bloquear ni corregir los errores deliberados. Los archivos sin perfil quedan fuera de la revisión; no equivale a certificación SUCC.
+- Volver al catálogo conserva los formularios, resultados y archivos cargados durante la sesión. Recargar o cerrar el HTML descarta ese estado.
+
+Todo queda incluido en el mismo `index_completo.html`; no requiere archivos adicionales ni servidor para generar y revisar.
+
 ## Contenido publicado
 
 - `index_completo.html`: aplicación completa.
@@ -30,7 +41,7 @@ Se incluyen generadores AFP, IPS/FAPP, pagos, rebajas, MOVPER, MDF y retroalimen
 El mantenimiento se realiza en el proyecto local con los fuentes de los generadores. Después de editar y verificar los HTML afectados, ejecutar desde su raíz:
 
 ```sh
-python3 auditoria/empaquetado/preparar_publicacion.py --version 1.1.1 --notas "Descripción del cambio"
+python3 auditoria/empaquetado/preparar_publicacion.py --version 1.2.1 --notas "Descripción del cambio"
 ```
 
 La verificación de integridad exige registrar los cambios intencionales de los generadores en `auditoria/empaquetado/correcciones_aprobadas.json` del proyecto de fuentes.
@@ -40,9 +51,9 @@ El comando reconstruye y verifica el paquete, y prepara el HTML y el manifiesto 
 ```sh
 cd publicacion/BullDocc
 git add index_completo.html version.json
-git commit -m "Publicar BullDocc 1.1.1"
+git commit -m "Publicar BullDocc 1.2.1"
 git push origin main
-gh release create v1.1.1 index_completo.html version.json --title "BullDocc 1.1.1" --notes "Descripción del cambio"
+gh release create v1.2.1 index_completo.html version.json --title "BullDocc 1.2.1" --notes "Descripción del cambio"
 ```
 
 Cada publicación requiere una versión mayor que la anterior en formato `mayor.menor.parche`. El botón no ofrece volver a versiones inferiores. No edites `version.json` a mano ni publiques un manifiesto que no corresponda al HTML.
