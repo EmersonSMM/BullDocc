@@ -28,17 +28,19 @@ Se incluyen generadores AFP, IPS/FAPP, pagos, rebajas, MOVPER, MDF y retroalimen
 El mantenimiento se realiza en el proyecto local con los fuentes de los generadores. Después de editar y verificar los HTML afectados, ejecutar desde su raíz:
 
 ```sh
-python3 auditoria/empaquetado/preparar_publicacion.py --version 1.0.1 --notas "Descripción del cambio"
+python3 auditoria/empaquetado/preparar_publicacion.py --version 1.0.2 --notas "Descripción del cambio"
 ```
+
+La verificación de integridad exige registrar los cambios intencionales de los generadores en `auditoria/empaquetado/correcciones_aprobadas.json` del proyecto de fuentes.
 
 El comando reconstruye y verifica el paquete, y prepara el HTML y el manifiesto en `publicacion/BullDocc/`. Revisa los archivos y publícalos juntos:
 
 ```sh
 cd publicacion/BullDocc
 git add index_completo.html version.json
-git commit -m "Publicar BullDocc 1.0.1"
+git commit -m "Publicar BullDocc 1.0.2"
 git push origin main
-gh release create v1.0.1 index_completo.html version.json --title "BullDocc 1.0.1" --notes "Descripción del cambio"
+gh release create v1.0.2 index_completo.html version.json --title "BullDocc 1.0.2" --notes "Descripción del cambio"
 ```
 
 Cada publicación requiere una versión mayor que la anterior en formato `mayor.menor.parche`. El botón no ofrece volver a versiones inferiores. No edites `version.json` a mano ni publiques un manifiesto que no corresponda al HTML.
