@@ -1,8 +1,8 @@
 {
-  "version": "1.1.3",
+  "version": "1.2.0",
   "repositorio": "EmersonSMM/BullDocc",
   "download_url": "https://raw.githubusercontent.com/EmersonSMM/BullDocc/main/index_completo.html",
-  "bytes": 2687721,
-  "sha256": "357661cd349d2ad58ba856ceccf011f3f48b10f15a8789fe331eaa20b5ce3ce9",
-  "notas": "Añade una transición breve tipo cortina al entrar a un generador y volver al catálogo. Respeta la preferencia de movimiento reducido. Sin cambios en la generación."
+  "bytes": 2728532,
+  "sha256": "08fb024df2c33af55c4c2d11063b9f4e679ae8f789a50768e26cb4802194eb83",
+  "notas": "Integra herramientas QA en el mismo HTML: semilla opcional y fecha de referencia, fichas con opciones por generador, validación cruzada e informe descargable, y conservación de formularios y archivos cargados durante la sesión. Las fuentes de los 28 generadores permanecen intactas."
 }
