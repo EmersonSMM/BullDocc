@@ -1,8 +1,8 @@
 {
-  "version": "1.2.3",
+  "version": "1.2.4",
   "repositorio": "EmersonSMM/BullDocc",
   "download_url": "https://raw.githubusercontent.com/EmersonSMM/BullDocc/main/index_completo.html",
-  "bytes": 2734420,
-  "sha256": "a6fd80b54f6c500fc50c85630e810990a8bf60c0a5f9cf2f515cad1fe5ecd61d",
-  "notas": "Retira el bloque QA de la cabecera. Ayuda y revisión QA queda al pie de la salida, como acceso discreto y cerrado inicialmente, junto a la opción de repetir datos. Sin cambios en generación."
+  "bytes": 1806608,
+  "sha256": "ebe1e5c7a8f32fe8e9d880e2aef8c47d2fdcfc76160040bc26b40dea326ed61c",
+  "notas": "Simplifica la interfaz: botón píldora con versión y Comprobar actualizaciones, elimina el perro visible del catálogo y los generadores integrados, y retira Un generador para cada caso. Sin cambios en generación."
 }
