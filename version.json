@@ -1,8 +1,8 @@
 {
-  "version": "1.2.2",
+  "version": "1.2.3",
   "repositorio": "EmersonSMM/BullDocc",
   "download_url": "https://raw.githubusercontent.com/EmersonSMM/BullDocc/main/index_completo.html",
-  "bytes": 2733684,
-  "sha256": "8278391161f3c340dbf857eefe26cea1358d2e51dc7d8f87cc46655d4ffd827b",
-  "notas": "Mueve Repetir los mismos datos al pie del registro de salida, como opción desplegable y desactivada inicialmente. Incluye explicación y ejemplo de rechazo en SUCC. Sin cambios en generación."
+  "bytes": 2734420,
+  "sha256": "a6fd80b54f6c500fc50c85630e810990a8bf60c0a5f9cf2f515cad1fe5ecd61d",
+  "notas": "Retira el bloque QA de la cabecera. Ayuda y revisión QA queda al pie de la salida, como acceso discreto y cerrado inicialmente, junto a la opción de repetir datos. Sin cambios en generación."
 }
