@@ -4,15 +4,19 @@
 
 ## Descargar y utilizar
 
-Descarga **index_completo.html** desde [Releases](https://github.com/EmersonSMM/BullDocc/releases/latest) y ábrelo en tu navegador. Incluye estilos, imágenes, JSZip y PapaParse; la generación de archivos funciona localmente.
+Descarga **BullDocc.html** desde [Releases](https://github.com/EmersonSMM/BullDocc/releases/latest) y ábrelo en tu navegador. Incluye estilos, imágenes, JSZip y PapaParse; la generación de archivos funciona localmente.
 
 Las cinco nuevas variantes IPS (DNPA + MOVPER, DNP + MOVPER, DNP + pagos, DNPA + rebajas y DNP + pagos + MOVPER) llevan una banda diagonal **BETA**: «no se han testeado completamente». Su certificación funcional en SUCC está pendiente.
+
+El nombre de descarga es **BullDocc.html**. Para evitar archivos numerados, usa **Guardar o reemplazar mi copia** y selecciona el HTML anterior en su carpeta; confirma el reemplazo cuando lo solicite el navegador. Esta opción depende de la compatibilidad del navegador. Una descarga normal no puede sobrescribir automáticamente tu archivo local.
+
+La ruta `index_completo.html` se mantiene como copia idéntica de compatibilidad para que las versiones anteriores continúen detectando actualizaciones. Solo necesitas conservar un HTML local.
 
 ## Actualizar tu copia
 
 1. Abre el catálogo y pulsa **Buscar actualizaciones**.
 2. Si hay una versión nueva, BullDocc descarga el HTML y verifica su tamaño, huella SHA-256 y versión interna.
-3. Pulsa **Descargar actualización** o **Guardar archivo actualizado**, cuando el navegador permita elegir el archivo de destino.
+3. Pulsa **Descargar actualización** o **Guardar o reemplazar mi copia**, cuando el navegador permita elegir el archivo de destino.
 4. Abre la nueva copia. Puedes conservar o reemplazar el HTML anterior.
 
 El navegador pide intervención para guardar o reemplazar archivos; BullDocc no modifica silenciosamente el archivo abierto. La consulta requiere Internet y solo obtiene `version.json` y, si hay actualización, el HTML publicado en este repositorio. No envía los datos ni archivos de tus pruebas a GitHub.

@@ -1,8 +1,8 @@
 {
-  "version": "1.2.5",
+  "version": "1.2.6",
   "repositorio": "EmersonSMM/BullDocc",
   "download_url": "https://raw.githubusercontent.com/EmersonSMM/BullDocc/main/index_completo.html",
-  "bytes": 1806518,
-  "sha256": "b6477ad518b07b50a730f1e7cb6c3f4a5647750ee887285e35d3e933de779039",
-  "notas": "Ajusta ligeramente el fondo del catálogo hacia un azul violáceo más suave, en temas claro y oscuro. Sin cambios en generación."
+  "bytes": 1806858,
+  "sha256": "952e65fc38fc6db0040ae1f4c65f9b8086930c507f1e3f0f3650ee431a160e8b",
+  "notas": "Restaura el color anterior. La descarga se llama BullDocc.html; Guardar o reemplazar mi copia permite elegir el archivo anterior y evitar duplicados en navegadores compatibles. Conserva la ruta antigua para actualizar copias existentes."
 }
