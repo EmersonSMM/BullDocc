@@ -1,8 +1,8 @@
 {
-  "version": "1.2.6",
+  "version": "1.2.7",
   "repositorio": "EmersonSMM/BullDocc",
   "download_url": "https://raw.githubusercontent.com/EmersonSMM/BullDocc/main/index_completo.html",
-  "bytes": 1806858,
-  "sha256": "952e65fc38fc6db0040ae1f4c65f9b8086930c507f1e3f0f3650ee431a160e8b",
-  "notas": "Restaura el color anterior. La descarga se llama BullDocc.html; Guardar o reemplazar mi copia permite elegir el archivo anterior y evitar duplicados en navegadores compatibles. Conserva la ruta antigua para actualizar copias existentes."
+  "bytes": 1806867,
+  "sha256": "7b226085f3f4b557d04dcf8a34d9d9d0d1d498ee670b72311cc1d5f05bcbd7fe",
+  "notas": "Ajuste mínimo: la ventana de actualizaciones indica que el archivo se descarga como BullDocc.html. Versión para comprobar la actualización desde 1.2.6; sin cambios en los generadores."
 }
