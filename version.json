@@ -1,8 +1,8 @@
 {
-  "version": "1.2.0",
+  "version": "1.2.1",
   "repositorio": "EmersonSMM/BullDocc",
   "download_url": "https://raw.githubusercontent.com/EmersonSMM/BullDocc/main/index_completo.html",
-  "bytes": 2728532,
-  "sha256": "08fb024df2c33af55c4c2d11063b9f4e679ae8f789a50768e26cb4802194eb83",
-  "notas": "Integra herramientas QA en el mismo HTML: semilla opcional y fecha de referencia, fichas con opciones por generador, validación cruzada e informe descargable, y conservación de formularios y archivos cargados durante la sesión. Las fuentes de los 28 generadores permanecen intactas."
+  "bytes": 2731021,
+  "sha256": "fcc32c1b1310850207e517c9d7d63adaa3ac6d2938cdec99d0e5c3ebd23f11f9",
+  "notas": "Aclara la opción Repetir los mismos datos, con Clave de la prueba y Fecha fija de generación. Alinea los campos y los muestra solo al activar la opción. Incluye ayuda y ejemplo; sin cambios en la lógica de generación."
 }
