@@ -21,6 +21,10 @@ La ruta `index_completo.html` se mantiene como copia idéntica de compatibilidad
 
 El navegador pide intervención para guardar o reemplazar archivos; BullDocc no modifica silenciosamente el archivo abierto. La consulta requiere Internet y solo obtiene `version.json` y, si hay actualización, el HTML publicado en este repositorio. No envía los datos ni archivos de tus pruebas a GitHub.
 
+## Pagos y rebajas parciales
+
+Desde la versión 1.2.8, los parciales cubren trabajadores completos de un folio y dejan a los demás pendientes. Se necesitan al menos dos trabajadores por folio para generar un parcial; CP_009 y CP12 rechazan cantidades insuficientes. IPS DNPA BETA genera un folio por trabajador y ofrece solo rebaja TOTAL. Las inconsistencias de montos deliberadas de las suites HU-064 se conservan.
+
 ## Herramientas QA integradas
 
 Despliega **Herramientas QA · semilla, casuísticas y validación** dentro de cada generador.
